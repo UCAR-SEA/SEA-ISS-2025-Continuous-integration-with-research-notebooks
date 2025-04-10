@@ -2,18 +2,13 @@ format: jb-book
 root: README
 
 parts:
-  - caption: Premable
+  - caption: SEA template
     chapters:
       - file: submission-guidelines.md
       - file: how-to-cite-this-paper.md
-  - caption: Example Paper 1
+  - caption: Paper
     chapters:
-      - file: notebooks/notebook-template.ipynb
-  - caption: Example Paper 2
-    chapters:
-      - file: notebooks/example_2/notebook-example2_part1.md
-      - file: notebooks/example_2/notebook-example2_part2.ipynb
-      - file: notebooks/example_2/notebook-example2_part3.md
-      - file: notebooks/example_2/notebook-example2_references.md
+      - file: notebooks/intro.ipynb
+
 
 
