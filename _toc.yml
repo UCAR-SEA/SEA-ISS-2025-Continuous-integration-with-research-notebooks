@@ -9,6 +9,3 @@ parts:
   - caption: Paper
     chapters:
       - file: notebooks/intro.ipynb
-
-
-
