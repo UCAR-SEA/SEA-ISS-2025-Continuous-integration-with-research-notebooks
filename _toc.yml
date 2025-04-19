@@ -2,10 +2,14 @@ format: jb-book
 root: README
 
 parts:
-  - caption: SEA template
+  - caption: Motivation
     chapters:
-      - file: submission-guidelines.md
-      - file: how-to-cite-this-paper.md
-  - caption: Paper
+      - file: notebooks/why.md
+      - file: notebooks/examples_open_atmos.ipynb
+  - caption: What users and devs can gain?
     chapters:
-      - file: notebooks/intro.ipynb
+      - file: notebooks/devs.md
+      - file: notebooks/users.ipynb
+  - caption: Summary
+    chapters:
+      - file: notebooks/summary.md

@@ -10,19 +10,19 @@
 
 The maintenance of research-result reproducibility can support rather than be a challenge of ongoing project development.
 The integration of research notebooks with automated software testing workflows is an essential prerequisite for this. 
-We present reusable tools and solutions engineered in the development and maintenance of the PySDM ([open-atmos.github.io/PySDM](https://open-atmos.github.io/PySDM)) and PyMPDATA ([open-atmos.github.io/PyMPDATA](open-atmos.github.io/PyMPDATA)) atmospheric modeling projects.
+We present reusable tools and solutions engineered in the development and maintenance of the [PySDM](https://open-atmos.github.io/PySDM) and [PyMPDATA](https://open-atmos.github.io/PyMPDATA) atmospheric modeling projects.
 Both packages are developed entirely in Python, using just-in-time compilation tools (Numba \& NVRTC) to enable a single-language HPC tech stack that covers simulation, analysis, and visualization codes.
 We will discuss the perspectives of both user and developer on reproducibility.
 
 From the user's perspective, maintenance of notebooks that reproduce paper results using up-to-date project codebase serves the purpose of documenting and exemplifying project features and applications. 
 It enables exploratory usage with little-to-no effort needed to set up a working environment.
 However, this is contingent on a design embracing modularity and inversion of control - it is not uncommon in atmospheric modeling for papers to use different simulation flow control or different parameterizations.
-We present the inversion of control solutions from PySDM that enable the choice of formulae and constants from user code, without trade-offs in: 
-    (i)~performance, 
-    (ii)~ability to switch between CPU and GPU backends, and 
-    (iii)~dimensional analysis of physics-relevant routines for testing unit correctness.
+We present the inversion of control solutions from PySDM that enable the choice of formulae and constants from user code, without trade-offs in: \
+    (i) performance, \
+    (ii) ability to switch between CPU and GPU backends, and \
+    (iii) dimensional analysis of physics-relevant routines for testing unit correctness.\
 The maintenance of notebooks within code repositories also poses challenges in terms of handling embedded visuals.
-The jupyter-utils project (\href{https://pypi.io/p/open-atmos-jupyter-utils}{pypi.io/p/open-atmos-jupyter-utils}) helps with embedding GitHub-renderable and Jupyter-book-compatible vector graphics and animations.
+The [open-atmos-jupyter-utils](https://pypi.io/p/open-atmos-jupyter-utils) project helps with embedding GitHub-renderable and Jupyter-book-compatible vector graphics and animations.
 
 From the developer's perspective, notebooks within the code repository are a source of test scenarios and constraints for the assertions that constitute a robust regression-test suite.
 We present the notebook\_vars() function from the jupyter-utils package, designed to be used in concert with the fixture logic of the pytest framework.
@@ -37,11 +37,26 @@ In addition to the benefits for software users and developers, this satisfies th
 
 
 
-**Keywords:** [Use keywords that describe the content of your paper, comma separated]
+**Keywords:** jupyter-notebooks, reproducibility, CI, atmospheric-science
 
 
-**Acknowledgements**: [List any Acknowledgements]
+**Acknowledgements**: 
+
+`open-atmos` community:\
+<img src="notebooks/img/Atmos-logo-vert.svg" width=120>
+
+NCAR Mesoscale and Microscale Meteorology:\
+<img src="notebooks/img/ncar_mmm_logo.jpg" width=70>
+
+AGH University of Krakow, Poland (IDUB):\
+<img src="notebooks/img/agh_idub_en_cmyk.svg" width=100>
+
+SEA Improving Scientific Conference:\
+<img src="notebooks/img/2024_SEA_Logo.png" width=100>
+
+
+National Science Centre Poland:\
+<img src="notebooks/img/logo-poziom-en-crop.svg" width=300>
 
 ---
 
-*Note: Replace the placeholders above with the specific details of your paper.*
