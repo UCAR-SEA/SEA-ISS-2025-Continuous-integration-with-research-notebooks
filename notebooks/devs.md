@@ -66,10 +66,4 @@ Research notebooks are a source of test cases --- physical model, paper results,
 Using pytest fixture unit tests are outside the notebooks!
 ```
 
-
-## DEMO
-
-<video width="600" height="400" controls>
-  <source src="img/1_AZaba_Devs_perspective.mp4" type="video/mp4">
-Your browser does not support the video tag.
-</video>
+---
