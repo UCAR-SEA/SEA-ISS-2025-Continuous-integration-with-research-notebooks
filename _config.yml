@@ -40,7 +40,7 @@ latex:
   latex_engine              : pdflatex  # one of 'pdflatex', 'xelatex' (recommended for unicode), 'luatex', 'platex', 'uplatex'
   use_jupyterbook_latex     : true # use jupyterbook-latex for pdf builds as default
   latex_documents:
-    targetname: sea_paper_2024.tex
+    targetname: sea_paper_2025.tex
 
 
 
