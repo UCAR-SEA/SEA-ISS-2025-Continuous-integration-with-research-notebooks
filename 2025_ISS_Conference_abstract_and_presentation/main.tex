@@ -1,0 +1,50 @@
+\documentclass[12pt]{article}
+\usepackage{graphicx,savetrees}
+\usepackage[allcolors=blue,colorlinks=true]{hyperref} 
+
+\title{Continuous Integration with research notebooks:\\ on~maintaining reproducibility in atmospheric modeling
+}
+\author{Agnieszka Żaba}
+\date{UCAR Software Engineering Assembly\\ "Improving Scientific Software" Conference (Boulder, April 2025)}
+\begin{document}
+
+\maketitle
+\thispagestyle{empty}
+The maintenance of research-result reproducibility can support rather than be a challenge of ongoing project development.
+The integration of research notebooks with automated software testing workflows is an essential prerequisite for this. 
+We present reusable tools and solutions engineered in the development and maintenance of the PySDM (\href{https://open-atmos.github.io/PySDM}{open-atmos.github.io/PySDM}) and PyMPDATA (\href{open-atmos.github.io/PyMPDATA}{open-atmos.github.io/PyMPDATA}) atmospheric modeling projects.
+Both packages are developed entirely in Python, using just-in-time compilation tools (Numba \& NVRTC) to enable a single-language HPC tech stack that covers simulation, analysis, and visualization codes.
+We will discuss the perspectives of both user and developer on reproducibility.
+
+From the user's perspective, maintenance of notebooks that reproduce paper results using up-to-date project codebase serves the purpose of documenting and exemplifying project features and applications. 
+It enables exploratory usage with little-to-no effort needed to set up a working environment.
+However, this is contingent on a design embracing modularity and inversion of control - it is not uncommon in atmospheric modeling for papers to use different simulation flow control or different parameterizations.
+We present the inversion of control solutions from PySDM that enable the choice of formulae and constants from user code, without trade-offs in: (i)~performance, (ii)~ability to switch between CPU and GPU backends, and (iii)~dimensional analysis of physics-relevant routines for testing unit correctness.
+The maintenance of notebooks within code repositories also poses challenges in terms of handling embedded visuals.
+The jupyter-utils project (\href{https://pypi.io/p/open-atmos-jupyter-utils}{pypi.io/p/open-atmos-jupyter-utils}) helps with embedding GitHub-renderable and Jupyter-book-compatible vector graphics and animations. 
+
+
+%Our solutions are proven to be useful in more than 30++ research notebooks reproducing results from 35 papers (as a part of continuous integration workflow).
+
+
+From the developer's perspective, notebooks within the code repository are a source of test scenarios and constraints for the assertions that constitute a robust regression-test suite.
+We present the notebook\_vars() function from the jupyter-utils package, designed to be used in concert with the fixture logic of the pytest framework.
+It enables the execution of the notebook code once in a test session, allowing us of  the final notebook state in multiple automated tests. This occurs without modifications to the notebooks themselves.
+In notebooks pertaining to specific research studies, a direct link from test code up to subject literature is provided.
+Overall, we achieve an improvement in code readability and refactoring capability.
+
+% talk:  avoid, fear-driven development, onboarding new devs
+
+The presented solutions, along with the availability of platforms such as Google Colab, mybinder.org or institutional Jupyter hubs, ensure single-click 
+reproducibility of research-paper results, and a structure for retaining this through future releases of the code base.
+In addition to the benefits for software users and developers, this satisfies the scientific-method and research-journal reproducibility requirements.
+%A real-life example featuring published cloud-microphysics simulation study employing PySDM and maintained as one of the PySDM example notebooks and accompanied by regression tests  will constitute the proceeding Jupyter notebook.
+
+\section{Presentation for Hexa}
+
+Jupyter notebooks and Python have become a de-facto standard in computational research and data analyses, replacing tools such as Matlab or plot-generating shell scripts. Among the reasons for the wide adoption of Jupyter and Python are: the free and open-source ecosystem; the availability of cloud-computing platforms such as Google Colab; the versatility and accessibility of Python packages; and the key features of the Jupyter notebook format. The notebooks allow for embedding rich-text narrative, program code, program output and scientific visualisations in a single self-contained file that can be interactively used. In the talk, we will share lessons learnt from using Jupyter notebooks in two in-house developed Python packages: PySDM and PyMPDATA. We will cover both users' perspective - where the notebooks serve as usage examples, and developers' perspective - where the notebooks are a source of scenarios for automated software testing, and where the notebooks present a unique challenge for software maintenance. The talk will include a demo during which everyone will be encouraged to try out a simple simulation, using Python packages developed at AGH, through a Jupyter notebook executed on a cloud-computing platform (i.e., a browser is the only requirement). Please bring your laptops/tablets. 
+
+
+\section*{Short Bio}
+I am a PhD student in the Environmental Physics Group (zfs.agh.edu.pl/en) at~the Faculty of Physics and Applied Computer Science, AGH University of Krakow. My research interests lie at the intersection between cloud microphysics and climate-science applications of water isotopes. I am a member of the github.com/open-atmos community and the maintainer of PySDM project.
+\end{document}
