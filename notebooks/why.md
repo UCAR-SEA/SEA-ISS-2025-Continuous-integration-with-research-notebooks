@@ -7,7 +7,7 @@
 ## [Geoscientific Model Development (GMD) Guidelines](https://gmd.copernicus.org/articles/12/2215/2019/) 
 ![GMD Cover](img/gmd_cover.png)  
 
-GMD executive editors: Editorial: The publication of geoscientific model developments v1.2, {cite}`hargreaves2019publication`.
+GMD executive editors: Editorial: The publication of geoscientific model developments v1.2, {cite:p}`gmd_executive_editors_editorial_2019`.
 
 
 **The GMD journal** in 2019 posted editorial guidelines regarding code and data policies. In this paper we want to address "Further steps towards best practice" (section 3). In the paper we can find that 
@@ -31,7 +31,7 @@ Journals enforce redproducibility against archived releases (which is great!)
 
 
 ##  _Why Jupyter is data scientists’ computational notebook of choice_
-Nature 563 (toolbox): {cite}`perkel2018jupyter`
+Nature 563 (toolbox): {cite:p}`perkel_why_2018`
 
 <img src="img/nature.svg.webp" width=500 class="center">
 
@@ -45,14 +45,14 @@ Here, we want to address challenges with Jupyter-notebooks, that are
 ---
 
 ##  _Reactive, reproducible, collaborative: computational notebooks evolve_
-Nature 593: Perkel 2021 {cite}`je2021reactive`
+Nature 593: Perkel 2021 {cite:p}`perkel_reactive_2021`
 <img src=img/Nature2021.webp width=500>
 
 Three years after previous paper we can find another one (with above title). 
 
 > A 2019 study found that just 24\% of 863,878 publicly available Jupyter notebooks on GitHub could be successfully re-executed, and only 4\% produced the same results.[^1]
 
-[^1]:(J. F. Pimentel et al. in 2019 IEEE/ACM 16th International Conference on Mining Software Repositories (MSR) 507–517; IEEE, 2019)
+[^1]: {cite:p}`pimentel_large-scale_2019`
 
 ---
 # Can we do even better?

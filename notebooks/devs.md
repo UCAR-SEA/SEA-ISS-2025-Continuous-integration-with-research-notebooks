@@ -66,13 +66,14 @@ Research notebooks are a source of test cases --- physical model, paper results,
 Using pytest fixture unit tests are outside the notebooks!
 ```
 
-Show example is based on {cite}`bolin_1959` [![preview notebook](https://img.shields.io/static/v1?label=render%20on&logo=github&color=87ce3e&message=GitHub)](https://github.com/open-atmos/PySDM/blob/main/examples/PySDM_examples/Bolin_1958/table_1.ipynb).
+Show example is based on {cite:p}`bolin_use_1958` [![preview notebook](https://img.shields.io/static/v1?label=render%20on&logo=github&color=87ce3e&message=GitHub)](https://github.com/open-atmos/PySDM/blob/main/examples/PySDM_examples/Bolin_1958/table_1.ipynb).
+
 
 
 
 ---
 ## DEMO
-<video controls>
-  <source src="img/1_devs.mp4" type="video/mp4">
+<video width=320 height=240  controls>
+  <source src="../_static/1_devs.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
