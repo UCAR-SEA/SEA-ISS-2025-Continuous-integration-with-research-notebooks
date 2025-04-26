@@ -27,7 +27,7 @@ Help with on-boarding new developers
 
 ## Dimensional analysis
 
-Due to modularity inside repository there is a feasibility to engineer dimensional analysis of the code that can be switched on for testing, and swtiched off by default 
+Due to modularity inside repository there is a feasibility to engineer dimensional analysis of the code that can be switched on for testing, and switched off by default
 
 <img src="img/Bolin_test.png" width=500>
 
