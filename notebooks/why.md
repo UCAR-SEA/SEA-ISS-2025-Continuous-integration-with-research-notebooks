@@ -7,7 +7,7 @@
 ## [Geoscientific Model Development (GMD) Guidelines](https://gmd.copernicus.org/articles/12/2215/2019/) 
 ![GMD Cover](img/gmd_cover.png)  
 
-GMD executive editors: Editorial: The publication of geoscientific model developments v1.2, Geosci. Model Dev., 12, 2215–2225, [DOI:10.5194/gmd-12-2215-2019](https://doi.org/10.5194/gmd-12-2215-2019), 2019.
+GMD executive editors: Editorial: The publication of geoscientific model developments v1.2, {cite}`hargreaves2019publication`.
 
 
 **The GMD journal** in 2019 posted editorial guidelines regarding code and data policies. In this paper we want to address "Further steps towards best practice" (section 3). In the paper we can find that 
@@ -31,7 +31,7 @@ Journals enforce redproducibility against archived releases (which is great!)
 
 
 ##  _Why Jupyter is data scientists’ computational notebook of choice_
-[Nature 563 (toolbox): Perkel 2018, DOI:10.1038/d41586-018-07196-1](https://doi.org/10.1038/d41586-018-07196-1)
+Nature 563 (toolbox): {cite}`perkel2018jupyter`
 
 <img src="img/nature.svg.webp" width=500 class="center">
 
@@ -45,7 +45,7 @@ Here, we want to address challenges with Jupyter-notebooks, that are
 ---
 
 ##  _Reactive, reproducible, collaborative: computational notebooks evolve_
-[Nature 593: Perkel 2021 DOI:10.1038/d41586-021-01174-w](https://doi.org/10.1038/d41586-021-01174-w)
+Nature 593: Perkel 2021 {cite}`je2021reactive`
 <img src=img/Nature2021.webp width=500>
 
 Three years after previous paper we can find another one (with above title). 

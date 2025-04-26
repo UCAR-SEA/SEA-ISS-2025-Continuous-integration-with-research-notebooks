@@ -13,3 +13,5 @@ force reproducibility, easier to maintain
 Supports ongoing project development
 ```
 
+```{bibliography}
+```
