@@ -71,3 +71,8 @@ Show example is based on {cite}`bolin_1959` [![preview notebook](https://img.shi
 
 
 ---
+## DEMO
+<video controls>
+  <source src="img/1_devs.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
