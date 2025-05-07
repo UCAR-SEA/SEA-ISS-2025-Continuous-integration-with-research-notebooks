@@ -83,7 +83,6 @@ sphinx:
       use_edit_page_button: true
       use_download_button: true
       use_fullscreen_button: true
-      use_binder_button: true
       github_url: https://github.com/UCAR-SEA
       launch_buttons:
         binderhub_url: https://mybinder.org

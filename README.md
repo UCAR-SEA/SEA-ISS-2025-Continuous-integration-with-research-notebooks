@@ -9,15 +9,15 @@
 **Abstract**:
 
 The maintenance of research-result reproducibility can support rather than be a challenge of ongoing project development.
-The integration of research notebooks with automated software testing workflows is an essential prerequisite for this. 
+The integration of research notebooks with automated software testing workflows is an essential prerequisite for this.
 We present reusable tools and solutions engineered in the development and maintenance of the [PySDM](https://open-atmos.github.io/PySDM) and [PyMPDATA](https://open-atmos.github.io/PyMPDATA) atmospheric modeling projects.
 Both packages are developed entirely in Python, using just-in-time compilation tools (Numba \& NVRTC) to enable a single-language HPC tech stack that covers simulation, analysis, and visualization codes.
-We will discuss the perspectives of both user and developer on reproducibility.
+We will discuss the perspectives of both users and developers on reproducibility.
 
-From the user's perspective, maintenance of notebooks that reproduce paper results using up-to-date project codebase serves the purpose of documenting and exemplifying project features and applications. 
+From the user's perspective, maintenance of notebooks that reproduce paper results using an up-to-date project codebase serves the purpose of documenting and exemplifying project features and applications.
 It enables exploratory usage with little-to-no effort needed to set up a working environment.
-However, this is contingent on a design embracing modularity and inversion of control - it is not uncommon in atmospheric modeling for papers to use different simulation flow control or different parameterizations.
-We present the inversion of control solutions from PySDM that enable the choice of formulae and constants from user code, without trade-offs in: \
+However, this is contingent on a design embracing modularity and inversion of control; it is not uncommon in atmospheric modeling for papers to use different simulation flow control or different parameterizations.
+We present the inversion of control solutions from PySDM that enable the choice of formulae and constants from user code without trade-offs in: \
     (i) performance, \
     (ii) ability to switch between CPU and GPU backends, and \
     (iii) dimensional analysis of physics-relevant routines for testing unit correctness.\
@@ -30,14 +30,14 @@ It enables the execution of the notebook code once in a test session, allowing u
 In notebooks pertaining to specific research studies, a direct link from test code up to subject literature is provided.
 Overall, we achieve an improvement in code readability and refactoring capability.
 
-The presented solutions, along with the availability of platforms such as Google Colab, mybinder.org or institutional Jupyter hubs, ensure single-click 
-reproducibility of research-paper results, and a structure for retaining this through future releases of the code base.
-In addition to the benefits for software users and developers, this satisfies the scientific-method and research-journal reproducibility requirements.
+The presented solutions, along with the availability of platforms such as Google Colab, mybinder.org, or institutional Jupyter hubs, ensure single-click 
+reproducibility of research paper results, and a structure for retaining this through future releases of the code base.
+In addition to the benefits for software users and developers, this satisfies the scientific method and research journal reproducibility requirements.
 
 
 
 
-**Keywords:** jupyter-notebooks, reproducibility, CI, atmospheric-science
+**Keywords:** jupyter-notebooks, reproducibility, CI, atmospheric science
 
 
 **Acknowledgements**: 
@@ -55,7 +55,7 @@ SEA Improving Scientific Conference:\
 <img src="notebooks/img/2024_SEA_Logo.png" width=100>
 
 
-National Science Centre Poland:\
+National Science Centre, Poland:\
 <img src="notebooks/img/logo-poziom-en-crop.svg" width=300>
 
 ---
