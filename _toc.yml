@@ -13,3 +13,4 @@ parts:
   - caption: Summary
     chapters:
       - file: notebooks/summary.md
+      - file: notebooks/bibliography.md

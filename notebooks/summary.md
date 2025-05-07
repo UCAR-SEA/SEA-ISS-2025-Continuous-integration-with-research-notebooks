@@ -12,9 +12,3 @@ force reproducibility, easier to maintain
 ```{admonition} Maintenance of research-result reproducibility
 Supports ongoing project development
 ```
-
-
-# Bibliography
-
-```{bibliography}
-```
