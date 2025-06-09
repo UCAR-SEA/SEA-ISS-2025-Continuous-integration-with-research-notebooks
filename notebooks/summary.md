@@ -1,14 +1,15 @@
-# Summary <img src="img/list-ul-solid.svg" width="50">
+# Take-home messages <img src="img/list-ul-solid.svg" width="50">
 
-```{admonition} Essential integration:
-Research notebooks + automated testing workflows
+```{admonition} Essential integration
+Combining research notebooks with automated testing enables sustainable, reproducible science.
 ```
 ```{admonition} Modularity and IoC
-Benefits for users, developers and on-boarding new contributors
-```
-```{admonition} Generated and embedded visuals
-force reproducibility, easier to maintain
+Improves usability, accelerates onboarding, and empowers both users and developers to contribute effectively.
 ```
 ```{admonition} Maintenance of research-result reproducibility
-Supports ongoing project development
+Automated checks help preserve the integrity of research outputs throughout ongoing development.
 ```
+```{admonition} Generated and embedded visuals
+Self-contained plots and animations ensure reproducibility and simplify long-term maintenance.
+```
+

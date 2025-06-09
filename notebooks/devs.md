@@ -59,7 +59,7 @@ For these purposes, we present a function from **`open-atmos-jupyter-utils`** us
 Research notebooks are a source of test cases --- physical model, paper results, etc.
 ```
 
-Additionally, by using `pytest fixture` and isolating a separate package for notebooks, i.e. [`PySDM-examples`](https://open-atmos.github.io/PySDM/PySDM_examples.html) we enable tests to be maintained outside the notebooks themselves.
+Additionally, by using `pytest fixture` and isolating a separate package for notebooks, i.e. [`PySDM-examples`](https://open-atmos.github.io/PySDM/PySDM_examples.html) we enable automated tests to be maintained outside the notebooks themselves.
 This approach improve maintenance of both notebooks and tests.
 ```{admonition} Take-home message
 Using pytest fixture unit tests are decoupled from the notebooks - improving test maintainability!
