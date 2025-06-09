@@ -12,8 +12,8 @@ Access to the source code is essential - but not sufficient on its own.
 
 ### [Geoscientific Model Development (GMD) Guidelines](https://gmd.copernicus.org/articles/12/2215/2019/) 
 ![GMD Cover](img/gmd_cover.png)
-The  _GMD_ journal explicitly states the importance of reproducibility in its editorial guidelines: {cite:t}`gmd_2019`.
-In 2019, it introduced editorial guidelines regarding code and data policies. For example:
+The  _GMD_ journal explicitly states the importance of reproducibility in its editorial guidelines.
+In {cite:t}`gmd_2019`, it introduced editorial guidelines regarding code and data policies. For example:
  
 > _(...) it is not sufficient that the source code is provided. It is also necessary to have **access** to all of the **input data** (...) and all **model configuration files** are provided._
 
@@ -23,14 +23,14 @@ Additionally:
 
 > _All figures and tables must be **scientifically reproducible from the scripts**._
 
-In the summary, why is reproducibility essential? Because it is a core principle of the scientific method and a requirement enforced by scientific journals.
+Why is reproducibility essential? Because it is a core principle of the scientific method and a requirement enforced by scientific journals.
 
 ```{attention} GMD Guidelines: 
 Journals enforce reproducibility against archived releases (which is great!)
 ```
 ---
 # Why notebooks?
-In this paper, we present utility package and practical recommendations to support reproducible scientific research within the context of research software engineering (RSE). 
+In this paper, we will present utility package and practical recommendations to support reproducible scientific research within the context of research software engineering (RSE). 
 These tools are intended for use with scientific notebooks contained in code repositories. 
 In this section, we explore the growing use of notebooks in research, based on statements from articles published in Nature.
 
@@ -39,7 +39,7 @@ In this section, we explore the growing use of notebooks in research, based on s
 Nature 563 (toolbox): {cite:t}`perkel_2018`
 <img src="img/nature.svg.webp" width=500 class="center">
 
-From this paper:
+We read:
 > We went from Jupyter notebooks not existing some six years ago to in essence everybody using them today.
 
 
@@ -56,17 +56,20 @@ Three years later, they published:
 
 > A 2019 study found that just 24\% of 863,878 publicly available Jupyter notebooks on GitHub could be successfully re-executed, and only 4\% produced the same results.[^1]
 
+Due to notebooks wide presence in scientific research, it is important to address the challenges they present.
+
 [^1]: {cite:t}`pimentel_2019`
 
 ---
 # Can we do even better?
-Journals require that results are reproducible using the code and data working at the time of publication.
+Journals require that results are reproducible using the code and data working at the time of publication. 
 This necessitates using specific package versions to ensure consistent behavior.
-Hence, we propose going further.
+Hence, we propose going further. 
 
 ```{admonition} Even better!
 The reproducibility maintained with ongoing developments
 ```
+
 
 <img src="img/signs-post-solid.svg" width=50>   In next sections you can find solutions developed in our packages.
 
