@@ -4,12 +4,12 @@
 Combining research notebooks with automated testing enables sustainable, reproducible science.
 ```
 ```{admonition} Modularity and IoC
-Improves usability, accelerates onboarding, and empowers both users and developers to contribute effectively.
+Improves usability, accelerates onboarding, and enables dimensional analysis of the codebase.
 ```
 ```{admonition} Maintenance of research-result reproducibility
-Automated checks help preserve the integrity of research outputs throughout ongoing development.
+Automated checks help spot regressions and preserve reproducibility throughout ongoing development.
 ```
 ```{admonition} Generated and embedded visuals
-Self-contained plots and animations ensure reproducibility and simplify long-term maintenance.
+Self-contained plots and animations increase the likelihood that outputs remain consistent with the code and simplify long-term maintenance.
 ```
 

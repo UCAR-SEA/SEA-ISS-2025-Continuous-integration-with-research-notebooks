@@ -1,28 +1,27 @@
 # Developers' perspective
 
-## Inversion of Control in atmospheric sciences <img src="img/cloud-solid.svg" width=50>
+## Inversion of Control as a solution to the patchwork of parameterizations in atmospheric modeling <img src="img/cloud-solid.svg" width=50>
 
-What makes atmospheric science unique?  It is not uncommon in atmospheric modeling for different studies to use different simulation flow control schemes or parameterizations.
-We present Inversion of Control (IoC) solutions from PySDM that allow users to choose formulae and constants directly for their purposes and directly from the code without trade-offs in:
+It is not uncommon in atmospheric modeling for different studies to use different parameterizations or simulation flow control.
+We present Inversion of Control (IoC) solutions from PySDM that allow users to select formulae and constants from the topmost level of the codebase, without trade-offs in:
 - performance,
-- ability to switch between CPU and GPU backends, and
-- dimensional analysis of physics-relevant routines for testing unit correctness.
+- compatibility with both CPU and GPU backends, and
+- ability to perform dimensional analysis of physics-relevant routines for testing unit correctness.
     
 
 ```{admonition} Inversion of Control
-A prerequisite for code reusability and effective testing in atmospheric science.
+A prerequisite for code reusability and effective testing.
 ```
 
 The simple notebook demonstrates this modularity by reproducing findings from {cite:t}bolin_1958. 
 The author, Bert Bolin, was a Swedish meteorologist and the first chairman of the Intergovernmental Panel on Climate Change (IPCC), from 1988 to 1997 [Wikipedia](https://en.wikipedia.org/wiki/Bert_Bolin).
 
-In the notebook one can find Bolin's table with relaxation timescales (Table 1.) reproduced with PySDM package.
+In the notebook, one can find Bolin's table with the timescales of water isotopic exchange between a falling raindrop and the ambient air (Table 1.) reproduced with PySDM.
 The screenshot below shows a section of that notebook where physical system is defined: formulae are selected and constants are set.
 <img src="img/Bolin_formula.png" width=500>
 
-Thanks to the modular structure of the [`physics` folder](https://github.com/open-atmos/PySDM/tree/main/PySDM/physics), users can easily customize theirs settings and parameterizations.
-New developers can easily familiarise themselves with the codebase and work on isolated components.
-Additional utilities, constants and formulations of physical equations can be introduced or modified without requiring deep understanding of the entire project or its dependiecies.
+Thanks to the modular structure of the [`physics` subpackage](https://github.com/open-atmos/PySDM/tree/main/PySDM/physics), users can easily customize parameterizations and values of constants.
+Such code design helps compartmentalize a new developer’s exposure, allowing them to focus on one component at a time.
 
 ```{admonition} Take-home message
 Formulae and Constants chosen by User --- Modularity and Inversion of Control.
@@ -33,7 +32,7 @@ Help with on-boarding new developers
 
 ## Dimensional analysis
 
-Moreover, the modular architecture of the repository enables optional dimensional analysis, which can be activated for testing and switched off by default.
+This IoC approach not only exposes all physical constants for user configuration, but also allows us to substitute them with unit-carrying objects making dimensional consistency checks across the entire codebase automatable.
 Returning to the Bolin's work, we demonstrate an example test for units correctness of a specific equation.
 <img src="img/Bolin_test.png" width=500>
 
@@ -45,8 +44,8 @@ Modularity and Inversion of Control help with dimensional analysis!
 Creating tests for edge cases can be challenging. 
 Our notebooks - designed to reproduce results from scientific literature - naturally provide tests cases!
 This include:
-- comparisons between current implementation and previous results;
-- evaluation of different parameterizations or simulation settings from the literature.
+- regression tests ensuring new components do not alter previous results;
+- evaluation of different parameterizations or simulation settings against reference values from literature.
 
 For these purposes, we present a function from **`open-atmos-jupyter-utils`** used in Jupyter-notebooks testing. 
 [![link to GitHub](https://img.shields.io/static/v1?label=open-atmos-jupyter-utils%20on&logo=github&color=87ce3e&message=GitHub)](https://github.com/open-atmos/jupyter-utils)
