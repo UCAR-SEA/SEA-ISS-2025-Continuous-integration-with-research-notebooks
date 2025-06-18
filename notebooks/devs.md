@@ -1,8 +1,8 @@
 # Developers' perspective
 
-## Inversion of Control as a solution to the patchwork of parameterizations in atmospheric modeling <img src="img/cloud-solid.svg" width=50>
+## Inversion of Control as a solution to the patchwork of parameterization in atmospheric modeling <img src="img/cloud-solid.svg" width=50>
 
-It is not uncommon in atmospheric modeling for different studies to use different parameterizations or simulation flow control.
+It is not uncommon in atmospheric modeling for different studies to use different parameterization or simulation flow control.
 We present Inversion of Control (IoC) solutions from PySDM that allow users to select formulae and constants from the topmost level of the codebase, without trade-offs in:
 - performance,
 - compatibility with both CPU and GPU backends, and
@@ -13,14 +13,14 @@ We present Inversion of Control (IoC) solutions from PySDM that allow users to s
 A prerequisite for code reusability and effective testing.
 ```
 
-The simple notebook demonstrates this modularity by reproducing findings from {cite:t}bolin_1958. 
+The simple notebook demonstrates this modularity by reproducing findings from {cite:t}`bolin_1958`. 
 The author, Bert Bolin, was a Swedish meteorologist and the first chairman of the Intergovernmental Panel on Climate Change (IPCC), from 1988 to 1997 [Wikipedia](https://en.wikipedia.org/wiki/Bert_Bolin).
 
 In the notebook, one can find Bolin's table with the timescales of water isotopic exchange between a falling raindrop and the ambient air (Table 1.) reproduced with PySDM.
 The screenshot below shows a section of that notebook where physical system is defined: formulae are selected and constants are set.
 <img src="img/Bolin_formula.png" width=500>
 
-Thanks to the modular structure of the [`physics` subpackage](https://github.com/open-atmos/PySDM/tree/main/PySDM/physics), users can easily customize parameterizations and values of constants.
+Thanks to the modular structure of the [`physics` subpackage](https://github.com/open-atmos/PySDM/tree/main/PySDM/physics), users can easily customize parameterization and values of constants.
 Such code design helps compartmentalize a new developer’s exposure, allowing them to focus on one component at a time.
 
 ```{admonition} Take-home message
@@ -43,9 +43,9 @@ Modularity and Inversion of Control help with dimensional analysis!
 ## Notebooks are a source of test (edge) cases!
 Creating tests for edge cases can be challenging. 
 Our notebooks - designed to reproduce results from scientific literature - naturally provide tests cases!
-This include:
+This includes:
 - regression tests ensuring new components do not alter previous results;
-- evaluation of different parameterizations or simulation settings against reference values from literature.
+- evaluation of different parameterization or simulation settings against reference values from literature.
 
 For these purposes, we present a function from **`open-atmos-jupyter-utils`** used in Jupyter-notebooks testing. 
 [![link to GitHub](https://img.shields.io/static/v1?label=open-atmos-jupyter-utils%20on&logo=github&color=87ce3e&message=GitHub)](https://github.com/open-atmos/jupyter-utils)
@@ -67,7 +67,7 @@ Using pytest fixture unit tests are decoupled from the notebooks - improving tes
 ---
 ## DEMO - presented solutions
 Preview the functionality described above in the following example notebook:
-[![preview notebook](https://img.shields.io/static/v1?label=Bolin&logo=github&color=87ce3e&message=example)](https://github.com/open-atmos/PySDM/blob/main/examples/PySDM_examples/Bolin_1958/table_1.ipynb)).
+[![preview notebook](https://img.shields.io/static/v1?label=Bolin&logo=github&color=87ce3e&message=example)](https://github.com/open-atmos/PySDM/blob/main/examples/PySDM_examples/Bolin_1958/table_1.ipynb).
 
 <video width=320 height=240  controls>
   <source src="../_static/1_devs.mp4" type="video/mp4">
