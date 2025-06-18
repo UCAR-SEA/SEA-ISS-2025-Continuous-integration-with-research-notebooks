@@ -15,7 +15,7 @@ Access to the source code is essential - but not sufficient on its own.
 The  _GMD_ journal explicitly states the importance of reproducibility in its editorial guidelines.
 In {cite:t}`gmd_2019`, it introduced editorial guidelines regarding code and data policies. For example:
  
-> _(...) it is not sufficient that the source code is provided. It is also necessary to have **access** to all of the **input data** (...) and all **model configuration files** are provided._
+> _(...) it is not sufficient that the source code is provided. It is also necessary to have **access** to all the **input data** (...) and all **model configuration files** are provided._
 
 Additionally:
 
@@ -58,7 +58,7 @@ Three years later, they published:
 
 Due to notebooks wide presence in scientific research, it is important to address the challenges they present.
 
-[^1]: {cite:t}`pimentel_2019`
+[^1] {cite:t}`pimentel_2019`
 
 ---
 # Can we do even better?
@@ -71,6 +71,6 @@ The reproducibility maintained with ongoing developments
 ```
 
 
-<img src="img/signs-post-solid.svg" width=50>   In next sections you can find solutions developed in our packages.
+<img src="img/signs-post-solid.svg" width=50 alt="next">   In next sections you can find solutions developed in our packages.
 
 ---
