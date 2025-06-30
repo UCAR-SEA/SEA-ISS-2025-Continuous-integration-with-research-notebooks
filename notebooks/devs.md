@@ -18,6 +18,7 @@ The author, Bert Bolin, was a Swedish meteorologist and the first chairman of th
 
 In the notebook, one can find Bolin's table with the timescales of water isotopic exchange between a falling raindrop and the ambient air (Table 1.) reproduced with PySDM.
 The screenshot below shows a section of that notebook where physical system is defined: formulae are selected and constants are set.
+
 <img src="img/Bolin_formula.png" width=500>
 
 Thanks to the modular structure of the [`physics` subpackage](https://github.com/open-atmos/PySDM/tree/main/PySDM/physics), users can easily customize parameterization and values of constants.
@@ -34,6 +35,7 @@ Help with on-boarding new developers
 
 This IoC approach not only exposes all physical constants for user configuration, but also allows us to substitute them with unit-carrying objects making dimensional consistency checks across the entire codebase automatable.
 Returning to the Bolin's work, we demonstrate an example test for units correctness of a specific equation.
+
 <img src="img/Bolin_test.png" width=500>
 
 ```{admonition} Take-home message

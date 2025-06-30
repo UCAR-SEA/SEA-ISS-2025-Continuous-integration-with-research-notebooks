@@ -12,6 +12,7 @@ Access to the source code is essential - but not sufficient on its own.
 
 ### [Geoscientific Model Development (GMD) Guidelines](https://gmd.copernicus.org/articles/12/2215/2019/) 
 ![GMD Cover](img/gmd_cover.png)
+
 The  _GMD_ journal explicitly states the importance of reproducibility in its editorial guidelines.
 In {cite:t}`gmd_2019`, it introduced editorial guidelines regarding code and data policies. For example:
  
