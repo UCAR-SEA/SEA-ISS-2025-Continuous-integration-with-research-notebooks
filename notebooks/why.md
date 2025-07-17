@@ -45,7 +45,7 @@ We read:
 
 
 However, the same paper also highlights challenges:
-> (...) difficult to organize code logically, break it into reusable modules and develop tests to ensure~the code is working properly
+> (...) difficult to organize code logically, break it into reusable modules and develop tests to ensure the code is working properly
 
 ---
 
@@ -55,11 +55,11 @@ Nature 593: {cite:t}`perkel_2021`
 
 Three years later, they published:
 
-> A 2019 study found that just 24\% of 863,878 publicly available Jupyter notebooks on GitHub could be successfully re-executed, and only 4\% produced the same results.[^1]
+> A 2019 study found that just 24\% of 863,878 publicly available Jupyter notebooks on GitHub could be successfully re-executed, and only 4\% produced the same results.[^cite1]
 
 Due to notebooks wide presence in scientific research, it is important to address the challenges they present.
 
-[^1] {cite:t}`pimentel_2019`
+[^cite1]: {cite:t}`pimentel_2019`
 
 ---
 # Can we do even better?

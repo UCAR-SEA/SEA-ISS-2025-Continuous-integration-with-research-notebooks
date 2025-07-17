@@ -71,7 +71,7 @@ Using pytest fixture unit tests are decoupled from the notebooks - improving tes
 Preview the functionality described above in the following example notebook:
 [![preview notebook](https://img.shields.io/static/v1?label=Bolin&logo=github&color=87ce3e&message=example)](https://github.com/open-atmos/PySDM/blob/main/examples/PySDM_examples/Bolin_1958/table_1.ipynb).
 
-<video width=320 height=240  controls>
+<video width=90% controls>
   <source src="../_static/1_devs.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
