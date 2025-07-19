@@ -1,5 +1,3 @@
------ 
-
 # Why reproducibility? 
 
 By _reproducibility_, we refer to the main principle of the scientific method: research findings must be replicable 
@@ -73,5 +71,3 @@ The reproducibility maintained with ongoing developments
 
 
 <img src="img/signs-post-solid.svg" width=50 alt="next">   In next sections you can find solutions developed in our packages.
-
----

@@ -65,5 +65,3 @@ SEA Improving Scientific Conference:\
 National Science Centre, Poland:\
 <img src="notebooks/img/logo-poziom-en-crop.svg" width=300>
 
----
-
