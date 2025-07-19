@@ -1,13 +1,9 @@
----
-
 # Users' perspective  <img src="img/users-solid.svg" width=50>
 In PySDM and PyMPDATA packages, we enforce a consistent structure across Jupyter-notebooks. This includes three standard badges enabling execution of the notebook on different platforms: Google Colab, Binder, and GitHub.
 
 ```{admonition} Take-home message
 Notebooks are self-contained and ready to run! User can open them directly in Colab, Binder, etc.
 ```
-
----
 
 ## Visualisations
 In all example-notebooks, visuals are embedded within the file without storing separate output files in the repository (self-contained). This approach supports:
