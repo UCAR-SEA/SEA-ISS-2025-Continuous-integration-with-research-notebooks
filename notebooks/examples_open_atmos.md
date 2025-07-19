@@ -53,7 +53,9 @@ pip install open-atmos-jupyter-utils
 
 ---
 
-#### The next part links challenges of the maintainability of research-results reproducibility with solutions developed during evolution of the packages mentioned above. We divided it into sections concerning developers' and users' gains. 
+## What's next?
+
+The next part links challenges of the maintainability of research-results reproducibility with solutions developed during evolution of the packages mentioned above. We divided it into sections concerning developers' and users' gains. 
 
 <img src="img/signs-post-solid.svg" width=50> Let's start with the developers' perspective!
 
