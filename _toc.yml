@@ -5,11 +5,11 @@ parts:
   - caption: Motivation
     chapters:
       - file: notebooks/why.md
-      - file: notebooks/examples_open_atmos.ipynb
+      - file: notebooks/examples_open_atmos.md
   - caption: What users and devs can gain?
     chapters:
       - file: notebooks/devs.md
-      - file: notebooks/users.ipynb
+      - file: notebooks/users.md
   - caption: Summary
     chapters:
       - file: notebooks/summary.md
