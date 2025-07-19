@@ -1,7 +1,7 @@
 # Book settings
 # Learn more at https://jupyterbook.org/customize/config.html
 
-title         : Continuous Integration with research notebooks: on maintaining reproducibility in atmospheric modeling
+title         : "Continuous Integration with research notebooks: on maintaining reproducibility in atmospheric modeling"
 author        : Agnieszka Żaba, Sylwester Arabas, and open-atmos contributors
 copyright     : "2025"  # Copyright year to be placed in the footer
 logo          : assets/iss2025.png  # Path to a logo image
