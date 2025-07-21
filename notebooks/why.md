@@ -1,5 +1,3 @@
------ 
-
 # Why reproducibility? 
 
 By _reproducibility_, we refer to the main principle of the scientific method: research findings must be replicable 
@@ -37,8 +35,10 @@ In this section, we explore the growing use of notebooks in research, based on s
 
 
 ###  _Why Jupyter is data scientists’ computational notebook of choice_
-Nature 563 (toolbox): {cite:t}`perkel_2018`
+
 <img src="img/nature.svg.webp" width=500 class="center">
+
+Nature 563 (toolbox): {cite:t}`perkel_2018`
 
 We read:
 > We went from Jupyter notebooks not existing some six years ago to in essence everybody using them today.
@@ -50,8 +50,10 @@ However, the same paper also highlights challenges:
 ---
 
 ###  _Reactive, reproducible, collaborative: computational notebooks evolve_
-Nature 593: {cite:t}`perkel_2021`
+
 <img src=img/Nature2021.webp width=500>
+
+Nature 593: {cite:t}`perkel_2021`
 
 Three years later, they published:
 
@@ -73,5 +75,3 @@ The reproducibility maintained with ongoing developments
 
 
 <img src="img/signs-post-solid.svg" width=50 alt="next">   In next sections you can find solutions developed in our packages.
-
----

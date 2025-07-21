@@ -78,5 +78,3 @@ Your browser does not support the video tag.
 
 \
 <img src="img/signs-post-solid.svg" width=50>  The next section highlights benefits from the user's perspective.
-
----
