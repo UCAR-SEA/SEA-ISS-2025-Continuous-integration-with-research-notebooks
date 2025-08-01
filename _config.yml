@@ -46,7 +46,7 @@ bibtex_bibfiles:
 
 # Information about where the book exists on the web
 repository:
-  url: https://github.com/UCAR-SEA/SEA-ISS-2025-Continuous-integration-of-research-notebooks  # Online location of your book
+  url: https://github.com/UCAR-SEA/SEA-ISS-2025-Continuous-integration-with-research-notebooks  # Online location of your book
   #path_to_book:  # Optional path to your book, relative to the repository root
   branch: main  # Which branch of the repository should be used when creating links (optional)
 
@@ -72,7 +72,7 @@ sphinx:
     bibtex_reference_style: author_year
     html_theme_options:
       home_page_in_toc: true
-      repository_url: https://github.com/UCAR-SEA/SEA-ISS-2025-Continuous-integration-of-research-notebooks # Online location of your book
+      repository_url: https://github.com/UCAR-SEA/SEA-ISS-2025-Continuous-integration-with-research-notebooks # Online location of your book
       repository_branch: main  
       navbar_align: right
       search_bar_text: Search

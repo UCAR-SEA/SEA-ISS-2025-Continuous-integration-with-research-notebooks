@@ -13,7 +13,7 @@ Packages started over 5 years ago, hence, serve as good examples for discussion 
 
 The animation from the landing page [PySDM Documentation](https://open-atmos.github.io/PySDM/)
 
-<img width="600" height="300" src="https://github.com/open-atmos/PySDM/releases/download/tip/docs_intro_animation_ubuntu-24.04.gif">
+<img src="https://github.com/open-atmos/PySDM/releases/download/tip/docs_intro_animation_ubuntu-24.04.gif">
 
 
 [![link to GitHub](https://img.shields.io/static/v1?label=PySDM%20on&logo=github&color=87ce3e&message=GitHub)](https://github.com/open-atmos/PySDM)
