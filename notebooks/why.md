@@ -1,5 +1,3 @@
------ 
-
 # Why reproducibility? 
 
 By _reproducibility_, we refer to the main principle of the scientific method: research findings must be replicable 
@@ -37,29 +35,33 @@ In this section, we explore the growing use of notebooks in research, based on s
 
 
 ###  _Why Jupyter is data scientists’ computational notebook of choice_
-Nature 563 (toolbox): {cite:t}`perkel_2018`
+
 <img src="img/nature.svg.webp" width=500 class="center">
+
+Nature 563 (toolbox): {cite:t}`perkel_2018`
 
 We read:
 > We went from Jupyter notebooks not existing some six years ago to in essence everybody using them today.
 
 
 However, the same paper also highlights challenges:
-> (...) difficult to organize code logically, break it into reusable modules and develop tests to ensure~the code is working properly
+> (...) difficult to organize code logically, break it into reusable modules and develop tests to ensure the code is working properly
 
 ---
 
 ###  _Reactive, reproducible, collaborative: computational notebooks evolve_
-Nature 593: {cite:t}`perkel_2021`
+
 <img src=img/Nature2021.webp width=500>
+
+Nature 593: {cite:t}`perkel_2021`
 
 Three years later, they published:
 
-> A 2019 study found that just 24\% of 863,878 publicly available Jupyter notebooks on GitHub could be successfully re-executed, and only 4\% produced the same results.[^1]
+> A 2019 study found that just 24\% of 863,878 publicly available Jupyter notebooks on GitHub could be successfully re-executed, and only 4\% produced the same results.[^cite1]
 
 Due to notebooks wide presence in scientific research, it is important to address the challenges they present.
 
-[^1] {cite:t}`pimentel_2019`
+[^cite1]: {cite:t}`pimentel_2019`
 
 ---
 # Can we do even better?
@@ -73,5 +75,3 @@ The reproducibility maintained with ongoing developments
 
 
 <img src="img/signs-post-solid.svg" width=50 alt="next">   In next sections you can find solutions developed in our packages.
-
----
